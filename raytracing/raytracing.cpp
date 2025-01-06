@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image/stb_image.h"
+
 int main() {
 
     // Image
@@ -16,7 +19,7 @@ int main() {
         for (int i = 0; i < image_width; i++) {
             auto r = double(i) / (image_width - 1);
             auto g = double(j) / (image_height - 1);
-            auto b = 0.0;
+            auto b = r*g;
 
             int ir = int(255.999 * r);
             int ig = int(255.999 * g);
