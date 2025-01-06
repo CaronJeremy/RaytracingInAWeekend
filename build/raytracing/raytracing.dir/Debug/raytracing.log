@@ -1,0 +1,5 @@
+﻿  raytracing.cpp
+C:\Users\Jeremy\Desktop\Prog\c++\raytracing\raytracing\stb_image\stb_image_write.h(776,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (compiler le fichier source '../../raytracing/raytracing.cpp')
+  
+  raytracing.vcxproj -> C:\Users\Jeremy\Desktop\Prog\c++\raytracing\build\raytracing\Debug\raytracing.exe
