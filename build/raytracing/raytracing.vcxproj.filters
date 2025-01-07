@@ -9,6 +9,12 @@
     <ClInclude Include="C:\Users\Jeremy\Desktop\Prog\c++\raytracing\raytracing\raytracing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Jeremy\Desktop\Prog\c++\raytracing\raytracing\CMakeLists.txt" />
